@@ -100,7 +100,7 @@ RETURN (
         OR cd.Descricao LIKE '%' + @City + '%'
 )
 GO
-SELECT * FROM Get_Cliente_By_Cidade('São')
+SELECT * FROM Get_Cliente_By_Cidade('Curitiba')
 -- DROP FUNCTION Get_Cliente_By_Cidade
 -- SELECT TOP(10) * FROM Venda
 
